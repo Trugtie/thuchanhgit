@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
-int tong(int a, int b){
-	return a+b;
+int tong(int a, int b)
+{
+	return a + b;
 };
 int hieu(int a, int b);
 
@@ -15,8 +16,8 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
-	if(phepToan=="+")
-	count<<"Tong= "<<tong(a,b);
+	if (phepToan == '+')
+		cout << "Tong= " << tong(a, b);
 	system("pause");
 	return 0;
 }
