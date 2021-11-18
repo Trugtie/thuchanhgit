@@ -10,6 +10,12 @@ int tich(int a, int b){
     return a*b;
 };
 
+void chanle(int x){
+	if(x%2==0)cout<< "Số Chẵn";
+	else cout<< "Số Lẻ";
+};
+
+
 int main()
 {
 	int a, b;
